@@ -3,4 +3,4 @@ The repository contains projects and learning materials from the website www.the
 
 The goal of the exercise is to recreate the provided design using HTML, Flexbox and CSS.
 
-![](images/01.png)
+![](Images/01.png)
