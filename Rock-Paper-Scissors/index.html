@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            <h1>Let's Rock Paper Scissors</h1>
+            <p class="rules">Although the game has a lot of complexity to it, the rules to play it 
+                are pretty simple. The game is played where players deliver hand signals that will 
+                represent the elements of the game; rock, paper and scissors. The outcome of the 
+                game is determined by 3 simple rules:
+                <ul>
+                    <li><a>Rock wins against scissors.</a></li>
+                    <li><a>Scissors win against paper.</a></li>
+                    <li><a>Paper wins against rock.</a></li>
+                </ul>
+                </p>
+        </div>
+
+        <div class="content">
+            <h2 id="scoreboard" >First to score 5 points win the game.</h2>
+        </div>
+
+        <div class="scoreboard">
+            <div class="you">
+                <div class="score">
+                    <i id="user-score" class="fa-regular fa-0"></i>
+                </div>
+                <div class="header-you"><h2>YOU</h2></div>
+            </div>
+            <div class="cpu">
+                <div class="score">
+                    <i id="cpu-score" class="fa-regular fa-0"></i>
+                </div>
+                <div class="header-cpu"><h2>CPU</h2></div>
+            </div>
+        </div>
+
+        <div id="weapon" class="choose-weapon">
+            <h2>Choose your weapon</h2>
+            <div class="weapon">
+                <div class="Rock">
+                    <i class="fa-regular fa-hand-back-fist"></i>
+                </div>
+                <div class="Paper">
+                    <i class="fa-regular fa-hand"></i>
+                </div>
+                <div class="Scissors">
+                    <i class="fa-regular fa-hand-scissors"></i>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="invisible" type="button" onClick="window.location.reload()">Play again!</button>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

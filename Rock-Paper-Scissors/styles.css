@@ -1,0 +1,89 @@
+.body, html {
+    background-color: rgb(27, 22, 22);
+    color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    text-align: center;
+}
+
+.rules, ul {
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.2;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.content {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.score {
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    min-height: 150px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose-weapon {
+    border-top: 4px solid;
+    border-color: #eeeeee;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    
+}
+
+.weapon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.Rock, .Paper, .Scissors {
+    min-height: 80px;
+    min-width: 80px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 40px;
+}
+
+.button {
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(27, 22, 22);
+    size: 100px;
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.invisible {
+    display: none;
+}
