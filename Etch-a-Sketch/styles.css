@@ -1,3 +1,45 @@
 body {
     background-color: rgb(34, 29, 29);
 }
+
+.container {
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.left-panel {
+    border: solid black 1px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(34, 29, 29);
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 7px;
+    flex-direction: column;
+    /* add box shadow */
+    
+}
+
+.grid {
+    border: solid black 1px;
+    width: 600px;
+    height: 600px;
+    display: grid;
+}
+
+.grid-item {
+    outline: 1px solid white;
+}
