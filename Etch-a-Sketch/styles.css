@@ -1,5 +1,20 @@
 body {
-    background-color: rgb(34, 29, 29);
+    background-color: rgba(255, 255, 244, 0.897);
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Silkscreen';
+}
+
+#color-picker {
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: none;
+    outline: none;
+    width: 100px;
+    height: 100px;
 }
 
 .container {
@@ -7,39 +22,56 @@ body {
     width: 80%;
     gap: 50px;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .left-panel {
-    border: solid black 1px;
-    width: 35%;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(248, 255, 244);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 20%;
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 25px;
+    justify-content: center;
     align-items: center;
 }
 
 .btn {
     width: 150px;
-    height: 35px;
-    background-color: rgb(34, 29, 29);
-    color: white;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0ch;
+    color: black;
     text-transform: uppercase;
-    border: 1px solid white;
     border-radius: 7px;
     flex-direction: column;
-    /* add box shadow */
-    
 }
 
+.active, .btn:hover {
+    background-color: rgba(252, 252, 65, 0.425);
+  }
+
 .grid {
-    border: solid black 1px;
     width: 600px;
     height: 600px;
     display: grid;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:  white;
+      
 }
 
 .grid-item {
-    outline: 1px solid white;
+    outline: 1px solid rgb(221, 220, 220);
+    background-color: white;
+}
+
+.grid-item-off {
+    outline: none;
 }
